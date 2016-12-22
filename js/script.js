@@ -6,9 +6,9 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(".main").onepage_scroll({
 	   sectionContainer: "section",
-	   easing: "cubic-bezier(.8,.08,.8,.62)",
+	   easing: "cubic-bezier(0.8, 0.08, 0.26, 0.81)",
 	   animationTime: 1200,
-	   pagination: false,
+	   pagination: true,
 	   updateURL: false
 	});
 });
@@ -25,8 +25,8 @@ function start() {
 	$('body').removeClass("loading").addClass('loaded');
 }
 
-$(window).load(function() {
-
-	init();
-
-});
+// $(window).load(function() {
+//
+// 	init();
+//
+// });
